@@ -17,8 +17,6 @@ Le système combine la détection des plaques par YOLOv8 et la reconnaissance op
 
 ## Technologies utilisées
 
-Technologies utilisées
-
 Python : langage de programmation.
 
 YOLOv8 : détection des plaques d’immatriculation.
