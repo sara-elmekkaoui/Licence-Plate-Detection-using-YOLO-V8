@@ -17,16 +17,25 @@ Le système combine la détection des plaques par YOLOv8 et la reconnaissance op
 
 ## Technologies utilisées
 
-| Technologie | Utilisation |
-|---|---|
-| Python | Développement du système |
-| YOLOv8 / Ultralytics | Détection des plaques |
-| PyTorch | Exécution des modèles de Deep Learning |
-| OpenCV | Traitement des images et vidéos |
-| Pytesseract | OCR, si utilisé dans le code |
-| Streamlit | Interface web, si utilisée |
-| NumPy et Pillow | Manipulation des images |
-| Arabic Reshaper et Python-Bidi | Mise en forme du texte arabe |
+Technologies utilisées
+
+Python : langage de programmation.
+
+YOLOv8 : détection des plaques d’immatriculation.
+
+Ultralytics : implémentation du modèle YOLO.
+
+PyTorch : framework de Deep Learning.
+
+OpenCV : traitement d’images et de vidéos.
+
+Pytesseract : reconnaissance optique de caractères.
+
+Streamlit : création de l’interface web interactive.
+
+NumPy et Pillow : manipulation et traitement des images.
+
+Arabic Reshaper et Python-Bidi : mise en forme et affichage du texte arabe.
 
 ## Structure du projet
 
@@ -47,8 +56,6 @@ ANPR/
 ├── requirements.txt       # Dépendances Python
 └── README.md              # Documentation du projet
 ```
-
-*Remarque : cette structure est basée sur l’arborescence observée dans VS Code. Le rôle exact de chaque fichier de modèle dépend de son utilisation dans le code.*
 
 ## Installation
 
